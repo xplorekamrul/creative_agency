@@ -3,7 +3,7 @@ import Image from "next/image"
 export default function HeroSection() {
   return (
     <section className="bg-indigo-600 py-16 md:py-24">
-      <div className="max-w-[1170px] mx-auto px-4">
+      <div className="max-w-Mycontainer mx-auto px-4">
         <div className="flex flex-col md:flex-row items-center">
           <div className="md:w-1/2 text-white mb-10 md:mb-0">
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
