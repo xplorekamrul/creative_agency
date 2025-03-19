@@ -5,12 +5,24 @@
   --foreground: #171717;
 }
 
+
+/* Tailwind CSS @theme inline শুধুমাত্র color, font-family, এবং spacing এর জন্য কাজ করে। */
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --spacing-Mycontainer: 1170px;
 }
+/* Background Images বা url() কাজ করবে না কারণ Tailwind CSS dynamic URLs ব্যবহার করে না। */
+/* Use bacground (bg-) prefix untill it dont work */
+/* .bg-heroImage{ */
+  /* the image on the public folder  */
+  /* background: url('/bgImage.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+} */
 
 @media (prefers-color-scheme: dark) {
   :root {

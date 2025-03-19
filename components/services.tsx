@@ -63,7 +63,7 @@ export default function ServicesSection() {
 
   return (
     <section className="py-16 bg-gray-50">
-      <div className="max-w-[1170px] mx-auto px-4">
+      <div className="max-w-Mycontainer mx-auto px-4">
       <Header title="Our Services" desc="There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form." className="text-center "/>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {serviceData.map((service, index) => (
