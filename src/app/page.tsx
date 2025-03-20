@@ -1,9 +1,10 @@
 import Footer from "../../components/footer";
 import HeroSection from "../../components/hero";
-import { Images } from "../../components/images";
+import { Portfolio } from "../../components/portfolio";
 import Navbar from "../../components/navbar";
 import ServicesSection from "../../components/services";
 import BlogGridDemo from "./blogs.tsx/page";
+import { Teams } from "../../components/Teams";
 
 export default function Home() {
   return (
@@ -11,7 +12,8 @@ export default function Home() {
       <Navbar/>
       <HeroSection/>
       <ServicesSection/>
-      <Images/>
+      <Portfolio/>
+      <Teams/>
       <BlogGridDemo/>
       <Footer/>
     </main>
